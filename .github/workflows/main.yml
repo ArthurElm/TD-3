@@ -13,6 +13,6 @@ jobs:
           ssh-password: ${{ secrets.PASSWORD }}
           ssh-domain: ${{ secrets.DOMAIN }}
           # Optional
-          git-clone-by: http
+          git-clone-by: https
           target-branch: main
           target-directory: /var/www/html/ArthurElm/
