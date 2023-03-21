@@ -9,7 +9,7 @@ jobs:
       - uses: Rxinui/ssh-deploy-repo-action@v1
         with:
           # Required
-          ssh-user: root
+          ssh-user: ${{ secrets.USER }}
           ssh-password: ${{ secrets.PASSWORD }}
           ssh-domain: ${{ secrets.DOMAIN }}
           # Optional
